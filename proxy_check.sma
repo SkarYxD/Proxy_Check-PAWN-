@@ -16,7 +16,7 @@ new g_szDataDir[PLATFORM_MAX_PATH];
 new g_hVault = INVALID_HANDLE;
 
 public plugin_init() {
-	register_plugin("Anti VPN/Proxy", "1.0", "JkDev"); //No seas rata y borres esto o lo cambies...
+	register_plugin("Anti VPN/Proxy", "1.0", "JkDev");
 }
 
 public plugin_cfg() {
